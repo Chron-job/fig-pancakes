@@ -1,0 +1,32 @@
+DNS Servers for johnnysnypizzeria.com:
+    ns1.dnsimple.com
+    ns2.dnsimple.com
+    ns3.dnsimple.com
+    ns4.dnsimple.com
+
+Trying zone transfer first...
+    Testing ns1.dnsimple.com
+        Request timed out or transfer not allowed.
+    Testing ns2.dnsimple.com
+        Request timed out or transfer not allowed.
+    Testing ns3.dnsimple.com
+        Request timed out or transfer not allowed.
+    Testing ns4.dnsimple.com
+        Request timed out or transfer not allowed.
+
+Unsuccessful in zone transfer (it was worth a shot)
+Okay, trying the good old fashioned way... brute force
+
+Checking for wildcard DNS...
+Nope. Good.
+Now performing 2280 test(s)...
+166.78.235.13    ftp.johnnysnypizzeria.com
+166.78.235.15    www.johnnysnypizzeria.com
+
+Subnets found (may want to probe here using nmap or unicornscan):
+    166.78.235.0-255 : 2 hostnames found.
+
+Done with Fierce scan: http://ha.ckers.org/fierce/
+Found 2 entries.
+
+Have a nice day.
